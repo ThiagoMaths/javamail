@@ -21,7 +21,7 @@ public class AppTest {
 		
 	
 		ObjetoEnviaEmail enviaEmail = 
-				new ObjetoEnviaEmail("daianacossta@gmail.com", "Daiana Costa", "testando E-mail Java", stringBuilderTextoEmail.toString());
+				new ObjetoEnviaEmail("Email destinatário", "Nome", "Assunto", stringBuilderTextoEmail.toString());
 		
 		enviaEmail.enviarEmailAnexo(true);
 }
