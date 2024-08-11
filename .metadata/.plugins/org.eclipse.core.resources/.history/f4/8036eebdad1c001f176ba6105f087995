@@ -1,0 +1,18 @@
+package br.com.enviando_email;
+
+
+
+public class AppTest {
+	
+
+	
+	@org.junit.Test
+	public void testEmail() throws Exception {
+	
+		ObjetoEnviaEmail enviaEmail = 
+				new ObjetoEnviaEmail("thiagomatheus2028@gmail.com", "Thiago Matheus", "testando E-mail Java", "Esse texto é a descrição do meu email");
+		
+		enviaEmail.enviarEmail(false);
+}
+}
+   
