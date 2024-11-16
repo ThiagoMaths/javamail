@@ -1,0 +1,1 @@
+Desenvolvimento de um projeto utilizando JavaMail API para envio de e-mails automatizados. O projeto inclui a configuração de servidores SMTP, autenticação e envio de mensagens com suporte a anexos e formatação HTML.
